@@ -1,16 +1,54 @@
-# React + Vite
+# Seafood Meals App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React application that fetches and displays seafood meals from TheMealDB API. This project demonstrates API integration, state management with React Hooks, and modern responsive styling using Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Fetches seafood meal data from TheMealDB API
+- Displays meal images, names, and IDs
+- Responsive card-based layout
+- Built with React Hooks (`useState` and `useEffect`)
+- API requests handled with Axios
+- Styled with Tailwind CSS
+- Mobile-friendly design
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Axios
+- Tailwind CSS
+- JavaScript (ES6+)
+- TheMealDB API
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## API
+
+This project uses data from TheMealDB API:
+
+```text
+https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood
+```
+
+## What I Learned
+
+- Fetching data from external APIs
+- Using Axios for HTTP requests
+- Managing state with React Hooks
+- Working with useEffect for side effects
+- Rendering dynamic data using map()
+- Building responsive layouts with Tailwind CSS
+
+## Future Improvements
+
+- Add search functionality
+- Add meal detail pages
+- Implement React Router
+- Add loading indicators
+- Improve error handling
+- Add category filtering
+- Add favorite meals feature
+
+## Author
+
+Created by Ifedolapo Olajide.
