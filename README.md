@@ -30,6 +30,40 @@ This project uses data from TheMealDB API:
 https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood
 ```
 
+## 📸 Screenshots
+
+### Desktop View
+![Seafood Meals App Desktop](./src/assets/screenshot/meal-app.png)
+
+### Mobile View
+![Seafood Meals App Mobile](./src/assets/screenshot/meal-app-mobile-view.png)
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/olajideIfe/meal-app.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd meal-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
 ## What I Learned
 
 - Fetching data from external APIs
