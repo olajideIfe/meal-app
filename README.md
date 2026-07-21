@@ -2,6 +2,10 @@
 
 A responsive React application that fetches and displays seafood meals from TheMealDB API. This project demonstrates API integration, state management with React Hooks, and modern responsive styling using Tailwind CSS.
 
+## 🔗 Live Demo
+
+[View Live Application](https://meal-app-iota-bice.vercel.app/)
+
 ## Features
 
 - Fetches seafood meal data from TheMealDB API
